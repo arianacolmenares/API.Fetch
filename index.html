@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS07 - API Fetch</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <main>
+    <div class="container text-center">
+
+
+      <div class="container d-flex justify-content-center align-items-center mt-3">
+        <h4>API Fetch</h4>
+      </div>
+
+      <div class="d-grid gap-2 col-2 mx-auto mt-5">
+        <button onclick=main() id="leerusuarios" class="btn btn-primary" type="button">Leer usuarios</button>
+      </div>
+
+
+      <div id="visibility" class="d-none">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden"></span>
+        </div>
+      </div>
+
+
+      <div class="container mt-5">
+        <h2>Datos de Usuario</h2>
+        <div id="userData"></div>
+      </div>
+    </div>
+
+  </main>
+</body>
+
+<script src="./script.js"></script>
+</body>
+
+</html>
